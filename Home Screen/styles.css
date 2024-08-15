@@ -1,0 +1,36 @@
+html, body {
+ margin: 0;
+ padding: 0;
+ height: 100%;
+ background-color:#018281;
+}
+
+.icon {
+    background-color: transparent;
+	box-shadow: 0 0 0;
+	font-size: 22px;
+	width: 100px;
+	text-align: center;
+}
+
+fos-desktop {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 100%;
+	min-height: 240px;
+	min-width: 320px;
+	background-color: #666;
+	overflow: auto;
+}
+
+/* Icon stuff
+https://www.flaticon.com/authors/pixel/linear-color?author_id=1
+https://www.flaticon.com/packs/interface-19
+https://www.flaticon.com/packs/web-design-14729564
+https://www.flaticon.com/packs/contacts-2 
+
+OS stuff
+https://github.com/victorqribeiro/fos?tab=readme-ov-file
+https://victorribeiro.com/
+https://victorribeiro.com/fos/ */

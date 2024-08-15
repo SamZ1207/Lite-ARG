@@ -1,0 +1,51 @@
+* {
+	background-color: black;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	color: white;
+	font-family: Arial;
+	font-size: 50px;
+	align-content: space-around;
+    flex-wrap: wrap;
+}
+
+p {
+	display: inline-block;
+	text-align: center;
+	color: white;
+}
+
+.fade1 {
+	animation: fadeIn 5s;
+	height: 100%;
+}
+
+.fade2 {
+	animation: fadeIn 10s;
+	height: 100%;
+}
+
+.fade3 {
+	animation: fadeIn 15s;
+	height: 100%;
+}
+
+@keyframes fadeIn {
+	0% 	 {opacity: 0;}
+	40%  {opacity: 0.4;}
+	100% {opacity: 1;}
+}
+
+/* align imgs and text - https://stackoverflow.com/questions/43161652/center-text-with-images-on-the-left-and-right */
+/* btn things - https://www.youtube.com/watch?v=-9MSxO0uSec */
+
+/* fade text - https://blog.hubspot.com/website/css-fade-in  */
+/* https://stackoverflow.com/questions/7463449/how-to-display-second-button-after-the-click-on-first-button */
+
+/* text appear - https://www.quora.com/How-do-I-make-text-appear-after-clicking-anywhere-on-the-screen-in-HTML-CSS */
+/* make disapear - https://www.w3schools.com/css/tryit.asp?filename=trycss_display */

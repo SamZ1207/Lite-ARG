@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>MinOS</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no">
+	<meta name="mobile-web-app-capable" content="yes">
+	<link rel="stylesheet" type="text/css" href="styles.css" />
+	<script src="minos.js"></script> 
+</head>
+<body>
+
+<fos-desktop iconOffset="10" style="background-color:#018281">
+
+	<fos-icon href="a1" name="Computer" class="icon">
+		<img src="imgs/monitor.png" alt="Computer" title="Computer" style="height: 64px; width: 64px;">
+	</fos-icon>
+
+	<fos-icon href="a2" name="Files" class="icon">
+		<img src="imgs/folder.png" alt="Files" title="Files" style="height: 64px; width: 64px;">
+		<span></span>
+	</fos-icon>
+
+	<fos-icon href="a3" name="Mail" class="icon">
+		<img src="imgs/mail.png" alt="Mail" title="Mail" style="height: 64px; width: 64px;">
+		<span></span>
+	</fos-icon>
+
+	<fos-icon href="a4" name="Trash Bin" class="icon">
+		<img src="imgs/trash.png" alt="Trash Bin" title="Trash Bin" style="height: 64px; width: 64px;">
+		<span></span>
+	</fos-icon>
+
+	<fos-icon href="a5" name="Cyberspace Voyager" class="icon">
+		<img src="imgs/www.png" alt="Internet" title="Internet" style="height: 64px; width: 64px;">
+		<span></span>
+	</fos-icon>
+
+	<fos-icon href="a6" name="Settings" class="icon">
+		<img src="imgs/settings.png" alt="Settings" title="Settings" style="height: 64px; width: 64px;">
+		<span></span>
+	</fos-icon>
+	
+	<fos-icon href="a7" name="" class="icon">
+		<img src="imgs/block.png" alt="mystery" title="mystery" style="height: 64px; width: 64px;">
+		<span></span>
+	</fos-icon>
+
+	<fos-window name="a1" title="Computer" style="height: 500px; width: 1000px;">
+		<br>
+		This Is Your Computer
+		<br>
+		<br>
+		Welcome New User!
+		Please reactivate MinOS for full access to your Computer!
+	</fos-window>
+
+	<fos-window name="a2" title="Files" >
+		<fos-bar position="top">
+			<fos-menu name="Menu">
+				<fos-menu-item href="panel1">This PC</fos-menu-item>
+				<fos-menu-item href="panel2">MinOS (C:)</fos-menu-item>
+			</fos-menu>
+		</fos-bar>
+		<br>
+		<br>
+		<br>
+		<fos-panel name="panel1" selected>
+			THIS FOLDER IS EMPTY
+			
+		</fos-panel>
+		<fos-panel name="panel2">
+			THIS FOLDER IS EMPTY
+			<a href="https://www.youtube.com" target="_blank"> test</a>
+		</fos-panel>
+	</fos-window>
+
+	<fos-window name="a3" title="Mail" >
+		<fos-bar position="top">
+			<fos-menu name="Inboxes">
+				<fos-menu-item href="panel3">Main</fos-menu-item>
+				<fos-menu-item href="panel4">Spam</fos-menu-item>
+				<fos-menu-item href="panel5">Trash</fos-menu-item>
+			</fos-menu>
+		</fos-bar>
+		<br>
+		<br>
+		<br>
+		<fos-panel name="panel3" selected>
+			NO NEW MESSAGES
+		</fos-panel>
+		<fos-panel name="panel4">
+			<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"> SHARE THIS TO FIVE OTHER PEOPLE OR ELSE...</a>
+		</fos-panel>
+		<fos-panel name="panel5">
+			Your Trash Is Empty
+		</fos-panel>
+	</fos-window>
+	<fos-window name="a4" title="Trash" style="height: 500px; width: 1000px;">
+		<br>
+		YOUR TRASH IS EMPTY
+	</fos-window>
+
+	<fos-window name="a5" title="CyberSpace Voyager">
+		<fos-bar position="top">
+			<fos-menu name="Bookmarks">
+				<fos-menu-item href="w1"> Google</fos-menu-item>
+				<fos-menu-item href="w2"> VidSpout</fos-menu-item>
+				<fos-menu-item href="w3"> BestBuy</fos-menu-item>
+				<fos-menu-item href="w4"> Grand St. Settlement</fos-menu-item>
+			</fos-menu>
+		</fos-bar>
+		<br>
+		<br>
+		<fos-panel name="w1" selected>
+			<br>
+			UH OH! 
+			<br>
+			https://google.com/ Is unable to be loaded as we are unable to retrieve an Internet connection.
+			<br>
+			<br>
+			DNS_PROBE_FINISHED_NO_INTERNET
+		</fos-panel>
+		<fos-panel name="w2">
+			<br>
+			UH OH! 
+			<br>
+			https://www.vidspout.com/ Is unable to be loaded as we are unable to retrieve an Internet connection.
+			<br>
+			<br>
+			DNS_PROBE_FINISHED_NO_INTERNET
+		</fos-panel>
+		<fos-panel name="w3">
+			<br>
+			UH OH! 
+			<br>
+			https://www.bestbuy.com/ Is unable to be loaded as we are unable to retrieve an Internet connection.
+			<br>
+			<br>
+			DNS_PROBE_FINISHED_NO_INTERNET
+		</fos-panel>
+		<fos-panel name="w4">
+			<br>
+			UH OH! 
+			<br>
+			https://www.grandsettlement.org/ Is unable to be loaded as we are unable to retrieve an Internet connection.
+			<br>
+			<br>
+			DNS_PROBE_FINISHED_NO_INTERNET
+		</fos-panel>
+	</fos-window>
+
+	<fos-window name="a6" title="Settings" style="height: 500px; width: 1000px;">
+		<br>
+		CURRENTLY UNAVAILABLE
+		<br>
+		<br>
+		Welcome New User!
+		Please reactivate MinOS for full access in "Your Computer"!
+	</fos-window>
+	
+	<fos-window name="a7" title="Ư̶̢̢̨̨̗̦͚̻̖̪̪͉͓͖̥̠̗̹̭̽̀͒̎̃̔͊̿̿̎̏̏͘̕͜͝n̷̻̤͓͙̥̈́̚ͅķ̴̨̧̪̜̲͍̻̹̭̪̙̗̠͓̜̗̳͈̥̭̀͆̔̇̍n̵̻̯͘ơ̴̠̳̌̿͆́͋͛͒͗̌̅̇̅̌͛͋̀̏̕̕͘͝͝͝ẃ̵̬̔̇̐n̴̖̹͍̩̏̈́́̔̇͂̐͌̂̓̐͑̚ ̵̧̙͔͓̺͇͇̗͖̭͇͒͐͛͆̍͛́͂͘͠S̸̛̛̰̣̬̲̤̘̱̻̻͔̪̳̳̱̖̘͕̼͈̋͑̈́̍͛͊͌̎̑̽̈̀̈͆̆̽̾̕̕̕̕ơ̴͉̲̖̫̬̣̗̮̳͖̖̪̗̪̫͉̬̍̒͒͗̈̋̑̇̊̐̊̾́͜͠f̸̡̢̧̤̬̮͓̜̹͔̹͚͕̝̗̙̺͓̥̃͌̾͛̿́̽͒̾̇͐̿͋̏̕͜͝t̵̨̧̧̨̥͔͚̠̳͔̩̣̤͖͉͉̩̺͎͐̂͒̔ͅw̵̢͚̣̖͑͛͛͗͆̉̔̔̋̐͑̔̄̏̕͘͝ä̴̢̧̘̤̲͙̖̙͎̥̦̏̂͑̈̓͌̓̆͌̊͠ŗ̷̨̟̳̻͔͈̪̘͕̄͋̀̅̿̌͌͊̽́̓̈̐̐͑̈́̓́̕͘̕͝͠͝͝ȩ̸̢̰̩͍͕͕̜͈̣̦͚̭̩͈̖͂̈́́̀͒̓̈́̈́͗̐̽̀̏̀̋̎͊̓̕̕͝" style="height: 500px; width: 1000px;">
+		<br>
+		CURRENTLY UNAVAILABLE
+		<br>
+		<br>
+		<a href="../Buffer/Buffer.html">C̴͕̝̤̗͕̺͎͇̯̖̥̖̪̲͖̙̖͈͇̲̜̉̐̏͂̑͌̌̓́̀͗̓͊͒͐͜͝͝͝͝ͅļ̴̛̂̊̎̎̃͂̅̍̐́̊̓̈́͆̍̓͌͐̽̚͘͝͠i̸̡̟̝̦̤̳͕͕̗̘͖̗͉̦͖͈̋̂͛͌̏̔̅̽͐̒̅̉̍̈́̓̈͗͌̕̕ͅc̷̡̨̼͍͓͕̠̹̮̳͇̺͔̪̥͛͝ķ̴̢̡̫̤̬̞͔̮͙̮͍̺̪̗̞͙͇̯͉̈́͗̍͋̽̐̄͌̅͠ ̴̢̢̢̭̝̳̘̫̲̼̱̯̎͜͜ͅM̶̡͕̺̙̼͙̭̭͎̲͓̥͙̟͈͕͑̽̄ͅͅę̶̧̮̮͉̗̣͔͚̥̟̺̮̫̟̖͎̩̹͒͐̈́̽̏͘͜</a>	
+	</fos-window>
+
+	<fos-bar>
+		<fos-menu name="Home" style="width:100px; height: 20px;">
+			<fos-menu-item href="a1"> Computer</fos-menu-item>
+			<fos-menu-item href="a2"> Files</fos-menu-item>
+			<fos-menu-item href="a3"> Mail</fos-menu-item>
+			<fos-menu-item href="a4"> Trash Bin</fos-menu-item>
+			<fos-menu-item href="a5"> Internet</fos-menu-item>
+			<fos-menu-item href="a6"> Settings</fos-menu-item>
+		</fos-menu>
+	</fos-bar>
+</fos-desktop>
+
+</body>
+</html>
